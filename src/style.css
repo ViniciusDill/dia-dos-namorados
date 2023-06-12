@@ -1,0 +1,134 @@
+.fundo{
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../imgs/coracao-png.webp);
+  background-size: cover;
+  position: fixed;
+  z-index: -1;
+}
+
+.play{
+  text-align: center;
+}
+
+#backgroundMusic{
+  margin: auto;
+}
+body{
+  display: flex;
+  flex-direction: column;
+}
+
+#play-button{
+  margin: auto;
+  margin-top: 20px;
+}
+
+p{
+  text-indent: 20px;
+    text-align: justify;
+}
+.hidden{
+  display: none;
+}
+
+main{
+  display: flex;
+}
+
+section{
+  width: 50vw;
+  height: 100vh;
+}
+
+h1{
+  text-align: center;
+}
+
+.imagem{
+  width: 50vw;
+  height: 100vh;
+}
+
+.ajuste{
+  width: 30%;
+  height: 15vw;
+  margin: 30% 300px 0 35%;
+}
+
+
+img{
+  border-radius: 50%;
+  height: 300px;
+  width: 300px;
+  
+}
+
+.feliz{
+  text-align: center;
+  margin: 25px;
+  font-size: 25px;
+}
+
+@media (max-width: 480px) {
+
+
+  .fundo{
+    background-size: contain;
+  }
+  .hidden{
+    display: block;
+  }
+  .sumiu{
+    display: none;
+  }
+
+  p{
+    width: 80%;
+    margin: 0 10%;
+    text-indent: 20px;
+    text-align: justify;
+  }
+
+  .vrido{
+    margin: 0 25px;
+      background: rgba( 255, 255, 255, 0.35 );
+      box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+      backdrop-filter: blur( 5.5px );
+      -webkit-backdrop-filter: blur( 5.5px );
+      border-radius: 10px;
+      border: 1px solid rgba( 255, 255, 255, 0.18 );
+  }
+  
+
+  body{
+    max-width: 480px;
+    width: 100vw;
+    padding: 0;
+    margin: 0;
+  }
+  main{
+    flex-direction: column;
+    margin: auto;
+  }
+
+  .imagem{
+    width: 400px;
+    order: 1;
+    height: 350px;
+  }
+
+  .ajuste{
+    text-align: center;
+    margin: 20px 50px 0 50px;
+    width: 80%;
+    height: 80%;
+  }
+  section{
+    order: 2;
+    width: 100vw;
+    text-align: center;
+  }
+
+}
+ 
